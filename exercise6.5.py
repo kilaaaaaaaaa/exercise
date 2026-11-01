@@ -1,0 +1,16 @@
+rivers = {
+    "nile" : "egypt",
+    "amazon" : "brazil",
+    "yangtze" : "china"
+}
+
+for river, country in rivers.items():
+    print(f"the {river.title()} runs through {country.title()}.\n")
+
+print("rivers:")
+for river in rivers.keys():
+    print(f" - {river.title()}")
+
+print("countries:")
+for country in rivers.values():
+    print(f" - {country.title()}")

@@ -1,0 +1,11 @@
+messages = [
+    "hello",
+    "good morning",
+    "how are you"
+]
+
+def show_messages(messages):
+    for message in messages:
+        print(message)
+
+show_messages(messages)
